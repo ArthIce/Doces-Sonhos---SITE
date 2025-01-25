@@ -1,0 +1,265 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: bisque;
+}
+
+header, img{
+    width: 100%;
+    background: rgb(196, 142, 118);
+}
+
+nav{ 
+    text-align: center;
+    padding: 1.5rem;
+    background-color: rgb(196, 142, 118);
+} 
+
+.menu:link, .menu:visited{
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.menu:hover, .menu:active{
+    color: rgb(241, 216, 192);
+}
+
+/*---GERAL----------------------------------------------------------------------------------------------*/
+
+a{
+    color: #ffffff;
+    font-family: "Familjen Grotesk", sans-serif;
+}
+
+main, #dest, #list-cardap, #snos, #agend{
+    padding: 50px 100px;
+}
+
+h1{
+    font-family: "Abhaya Libre", serif;
+    text-align: center;
+    font-size: 3rem;
+    color: #d32f2f;
+    font-weight: 1000;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-family: "Abhaya Libre ", serif;
+    font-size: 1cm;
+    font-weight: 550;
+    color: #ce4848;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-family: "Abhaya Libre", serif;
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 1rem; 
+}
+
+p{
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.5rem;
+    color: #101820;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+section{
+    padding: 20px;
+}
+
+/*---CARDS----------------------------------------------------------------------------------------------------------------------*/
+
+#dest{
+    background-color: rgb(196, 142, 118);
+    text-align: center;
+}
+
+#container{
+    display: flex;
+}
+
+.card{
+    background-color: antiquewhite;
+    margin: 10px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: #791f1f 0.1px;
+    opacity: 0.7;
+    transition: 0.5ms;
+}
+
+.img-card{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card:hover{
+    box-shadow: 0 0 20px #777;
+    scale: 1.1;
+}
+
+/*---LISTA-------------------------------------------------------------------------------------------------------------------*/
+
+#list-cardap{
+    text-align: center;
+}
+
+#list-cardap h3{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.containerr{
+    display: flex;
+    display: inline-flex;
+    gap: 5rem;
+}
+
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+li{
+    color: #161616;
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/*---SOBRE-NÓS---------------------------------------------------------------------------------------------------------------*/
+
+.snos-content {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 2rem; 
+}
+
+.snos-content p {
+    flex: 2; 
+    line-height: 1.6; 
+}
+
+.snos-content video {
+    flex: 1;
+    max-width: 100%;  
+    height: 45rem; 
+}
+
+
+.contatos{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.img-contatos{
+    width: 30px;
+    background-color: #FFF;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.text-contato{
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1rem;
+    color: #101820;
+    font-weight: 400;
+}
+
+/*---AGENDAMENTOS-------------------------------------------------------------------------------------------------------*/
+
+#agend{
+    background-color: bisque;
+}
+
+#agend h2{
+    text-align: center;
+}
+
+form{
+    background-color: rgb(245, 193, 163);
+    width: 30%;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 1rem;
+}
+
+label,fieldset{
+    font-family: "Abhaya Libre ", serif;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+input,select{
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-family: "Abhaya Libre ", serif;
+    font-size: 1rem;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 0.5rem;
+    border: 1px solid #888;
+}
+
+fieldset{
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+input[type="checkbox"]{
+    width: 1rem;
+}
+
+input[type="submit"]{
+    background-color: #aa3838;
+    border: 1px #888;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #ccc;
+}
+
+input[type="reset"]{
+    background-color: #6e2929;
+    border: 1px #888;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #ccc;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+    box-shadow: 0 0 20px #777;
+}
+
+
+/*---FOOTER------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    background-color: rgb(65, 34, 34);
+    padding: 1rem;
+}
+
+footer p{
+    color: #c0b7b7;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
